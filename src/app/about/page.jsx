@@ -32,7 +32,7 @@ Integrating a headless CMS, such as Contentful or Strapi, empowers your team to 
 
 Now, lets talk about MongoDB a powerful and flexible NoSQL database. MongoDBs document-based structure allows for seamless scalability, ensuring your website can effortlessly handle increasing amounts of data and traffic. This scalability translates to a more reliable and responsive user experience, even during traffic spikes or rapid growth periods. Additionally, MongoDBs ability to handle diverse data types enables you to efficiently store and retrieve various content elements, from images and videos to complex product data.<br /><br />
 
-In summary, a Next.js website with a headless CMS and MongoDB is a game-changer for your business. It brings speed, SEO optimization, and responsive design to the forefront, enhancing user experiences and driving conversions. The streamlined content management process accelerates your team's efficiency, while MongoDBs scalability ensures your website remains robust and reliable as your business flourishes. It is a powerful combination that empowers your business to thrive in the digital landscape.</p>
+In summary, a Next.js website with a headless CMS and MongoDB is a game-changer for your business. It brings speed, SEO optimization, and responsive design to the forefront, enhancing user experiences and driving conversions. The streamlined content management process accelerates your teams efficiency, while MongoDBs scalability ensures your website remains robust and reliable as your business flourishes. It is a powerful combination that empowers your business to thrive in the digital landscape.</p>
       </div>
       </div>
     </div>
