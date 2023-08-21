@@ -4,9 +4,7 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 
 async function getData(id) {
-  const apiUrl = process.env.MONGO || `http://localhost:3000/api/posts/${id}`;
-
-  const res = await fetch(apiUrl, {
+  const res = await fetch(`http://localhost:3000/api/posts/${id}`, {
     cache: "no-store",
   });
 

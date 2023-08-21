@@ -3,6 +3,8 @@ import styles from "./page.module.css";
 import Link from "next/link";
 import Image from "next/image";
 
+
+{/*
 async function getData() {
   const res = await fetch("http://localhost:3000/api/posts", {
     cache: "no-store",
@@ -14,10 +16,17 @@ async function getData() {
 
   return res.json();
 }
-
+*/}
 const Blog = async () => {
-  const data = await getData();
+  //const data = await getData();
   return (
+
+
+    <div>
+      <h1>Blog Page Under Construction</h1>
+    </div>
+  )};
+/*
     <div className={styles.mainContainer}>
       {data.map((item) => (
         <Link href={`/blog/${item._id}`} className={styles.container} key={item.id}>
@@ -40,6 +49,7 @@ const Blog = async () => {
     </div>
   );
 };
+*/
 
 export default Blog;
 
