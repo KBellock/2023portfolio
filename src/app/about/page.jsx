@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './page.module.css'
 import Image from 'next/image'
-import Workspace from 'public/web.webp'
+import Workspace from 'public/Web.webp'
 
 function About() {
   return (
