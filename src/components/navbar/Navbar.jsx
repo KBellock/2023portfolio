@@ -47,7 +47,7 @@ function Navbar() {
     <div className={styles.container}>
         <div className={styles.logoContainer}>
             <Link href="/" className={styles.logo}>
-                <Image src={Kevin} height={20} width={20} className={styles.profileImg}/>
+                <Image src={Kevin} height={20} width={20} alt="profile picture" className={styles.profileImg}/>
                 <span className={styles.name}>Kevin Bellock</span>
             </Link>
         </div>
@@ -69,8 +69,8 @@ function Navbar() {
         </div>
       {isMenuOpen && <ul className={styles.menu}>
         {links.map((link) => (
-            <li className={styles.menuItem} onClick={toggleMenu}>
-                <Link key={link.id} href={link.url} className={styles.burgerLink}>
+            <li key={link.id} className={styles.menuItem} onClick={toggleMenu}>
+                <Link href={link.url} className={styles.burgerLink}>
                     {link.title}
                 </Link>
             </li>
