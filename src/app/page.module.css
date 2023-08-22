@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   gap: 100px;
+  overflow: scroll;
 }
 
 .item {
@@ -51,5 +52,8 @@
   .container {
     margin: 0;
     padding: 0;
+  }
+  .img {
+    display: none;
   }
 }

@@ -3,6 +3,11 @@ import styles from './page.module.css'
 import Hero from 'public/hero.png'
 import Button from "@/components/button/Button"
 
+export const metadata = {
+  title: 'Kevin Bellock | 2023 Portfolio',
+  description: 'Built with Next 13and MongoDB',
+}
+
 export default function Home() {
   return (
     <div className={styles.container}>
