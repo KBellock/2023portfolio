@@ -1,4 +1,4 @@
-import { NextResponse } from "next/server";
+/*import { NextResponse } from "next/server";
 import connect from "@/utils/firebase";
 import Post from "@/models/Post";
 
@@ -32,4 +32,4 @@ export const POST = async (request) => {
   } catch (err) {
     return new NextResponse("Database Error", { status: 500 });
   }
-};
+};*/
