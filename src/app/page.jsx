@@ -12,11 +12,11 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <div className={styles.item}>
-        <h1 className={styles.title}>Performance Focused Web Development</h1>
+        <h1 className={styles.title}>Elevating Brands with Enhanced Web Performance</h1>
         <p className={styles.description}>Building for the modern web with a results driven focus on SEO and performance</p>
         <Button url="/portfolio" text="See my Work"/>
       </div>
-      <div className={styles.item}> 
+      <div className={styles.imgContainer}> 
         <Image src={Hero} alt="Hero Image" className={styles.img}/>
       </div>
     </div>

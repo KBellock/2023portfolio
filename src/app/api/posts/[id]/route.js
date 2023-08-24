@@ -1,5 +1,5 @@
-import { NextResponse } from "next/server";
-import connect from "@/utils/db";
+/*import { NextResponse } from "next/server";
+import connect from "@/utils/firebase";
 import Post from "@/models/Post";
 
 export const GET = async (request, { params }) => {
@@ -28,4 +28,4 @@ export const DELETE = async (request, { params }) => {
   } catch (err) {
     return new NextResponse("Database Error", { status: 500 });
   }
-};
+};*/
