@@ -12,9 +12,23 @@
   gap: 50px;
 }
 
+.imgContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
 .title {
   font-size: 72px;
-  background: linear-gradient(to bottom, #46bb82, #242424);
+  background: linear-gradient(to bottom, #46bb82, #404040);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.titleDark {
+  font-size: 72px;
+  background: linear-gradient(to bottom, #46bb82, #efebeb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -46,6 +60,11 @@
   .title {
     font-size: 2.5rem;
   }
+
+  .titleDark {
+    font-size: 2.5rem;
+  }
+  
   .description {
     font-size: 1rem;
   }
@@ -53,7 +72,7 @@
     margin: 0;
     padding: 0;
   }
-  .img {
+  .imgContainer {
     display: none;
   }
 }
