@@ -44,3 +44,15 @@ a {
     padding: 0 20px;
   }
 }
+
+.link {
+  color:cornflowerblue;
+}
+
+.link:hover {
+  color: #0056b3;
+}
+
+.link:active {
+  color: #425e7c;
+}
