@@ -2,6 +2,8 @@
 import { initializeApp } from "firebase/app";
 //import { getAnalytics } from "firebase/analytics";
 import { getFirestore } from "firebase/firestore";
+import { getStorage } from "firebase/storage";
+import { getAuth } from "firebase/auth";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -14,7 +16,7 @@ import { addDoc, collection, getDocs } from "firebase/firestore";
 const firebaseConfig = {
   apiKey: process.env.APIKEY,
   authDomain: process.env.AUTHDOMAIN,
-  projectId: "portfolio-4f2ed",
+  projectId: process.env.PROJECTID,
   storageBucket: process.env.STORAGEBUCKET,
   messagingSenderId: process.env.MESSAGINGSENDERID,
   appId: process.env.APPID,
@@ -23,8 +25,11 @@ const firebaseConfig = {
 
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
+//grab needed services
 //export const analytics = getAnalytics(app);
 export const db = getFirestore(app);
+export const storage = getStorage(app);
+export const auth = getAuth(app);
 
 
 export async function addPost(title, desc, img, content, username) {
