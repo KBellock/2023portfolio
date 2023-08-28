@@ -84,6 +84,14 @@
   transition: transform 0.3s, opacity 0.3s;
 }
 
+.lightbar {
+  width: 30px;
+  height: 3px;
+  background-color: black;
+  margin: 3px 0;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
 .open .bar:nth-child(1) {
   transform: rotate(-45deg) translate(-3px, 6px);
 }
