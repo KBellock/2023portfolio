@@ -1,6 +1,6 @@
 "use client"
 import React from 'react'
-import styles from './pageTitle.module.css'
+import styles from './pagetitle.module.css'
 import {useContext} from 'react'
 import { ThemeContext } from '@/context/ThemeContext'
 
