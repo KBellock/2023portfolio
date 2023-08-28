@@ -1,7 +1,9 @@
+
 import Image from 'next/image'
 import styles from './page.module.css'
 import Hero from 'public/hero.png'
 import Button from "@/components/button/Button"
+import PageTitle from '../components/pageTitle/PageTitle'
 
 export const metadata = {
   title: 'Kevin Bellock | 2023 Portfolio',
@@ -9,10 +11,11 @@ export const metadata = {
 }
 
 export default function Home() {
+  //const {mode} = useContext(ThemeContext)
   return (
     <div className={styles.container}>
       <div className={styles.item}>
-        <h1 className={styles.title}>Elevating Brands with Enhanced Web Performance</h1>
+        <PageTitle />
         <p className={styles.description}>Building for the modern web with a results driven focus on SEO and performance</p>
         <Button url="/portfolio" text="See my Work"/>
       </div>

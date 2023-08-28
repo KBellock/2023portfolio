@@ -1,11 +1,12 @@
 "use client";
 import React from 'react'
-import { useState } from 'react'
+import { useState, useContext } from 'react'
 import Link from 'next/link'
 import styles from './navbar.module.css'
 import DarkModeToggle from '../DarkModeToggle/DarkModeToggle'
 import Image from 'next/image'
 import Kevin from '/public/profilepic.jpeg'
+import { ThemeContext } from '@/context/ThemeContext';
 
 const links = [
     {
@@ -43,6 +44,8 @@ function Navbar() {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const {mode} = useContext(ThemeContext);
+
   return (
     <div className={styles.container}>
         <div className={styles.logoContainer}>
@@ -63,9 +66,9 @@ function Navbar() {
         >Logout</button>
         </div>
         <div className={styles.burgerIcon} onClick={toggleMenu}>
-            <div className={`${styles.bar} ${isMenuOpen ? styles.open : ''}`}></div>
-            <div className={`${styles.bar} ${isMenuOpen ? styles.open : ''}`}></div>
-            <div className={`${styles.bar} ${isMenuOpen ? styles.open : ''}`}></div>
+            <div className={`${mode == "dark" ? styles.bar : styles.lightbar} ${isMenuOpen ? styles.open : ''}`}></div>
+            <div className={`${mode == "dark" ? styles.bar : styles.lightbar} ${isMenuOpen ? styles.open : ''}`}></div>
+            <div className={`${mode == "dark" ? styles.bar : styles.lightbar} ${isMenuOpen ? styles.open : ''}`}></div>
         </div>
       {isMenuOpen && <ul className={styles.menu}>
         {links.map((link) => (
