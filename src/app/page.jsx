@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from './page.module.css'
 import Hero from 'public/hero.png'
 import Button from "@/components/button/Button"
-import PageTitle from '@/components/pageTitle/PageTitle'
+import PageTitle from '../components/pageTitle/PageTitle'
 
 export const metadata = {
   title: 'Kevin Bellock | 2023 Portfolio',
