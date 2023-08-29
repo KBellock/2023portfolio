@@ -63,7 +63,9 @@ function Navbar() {
             ))}
         <button className={styles.logout}
         onClick={() => {console.log('logout')}}
-        >Logout</button>
+        >
+            <Link href="/login">Sign In</Link>
+        </button>
         </div>
         <div className={styles.burgerIcon} onClick={toggleMenu}>
             <div className={`${mode == "dark" ? styles.bar : styles.lightbar} ${isMenuOpen ? styles.open : ''}`}></div>

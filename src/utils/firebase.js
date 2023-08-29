@@ -196,3 +196,4 @@ export async function submitForm(name, email, message) {
   });
   console.log("Document written with ID: ", docRef.id);
 }
+

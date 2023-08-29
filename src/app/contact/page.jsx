@@ -56,7 +56,7 @@ const handleSubmit = (event) => {
             placeholder="message"
             onChange={handleMessageChange}
           ></textarea>
-         {!submitted && <button onClick={handleSubmit} className={styles.button}>Submit Form</button>}s
+         {!submitted && <button onClick={handleSubmit} className={styles.button}>Submit Form</button>}
           {submitted && <p className={styles.submitted}>Thank you for your submission!</p>}
         </form>
       </div>
