@@ -19,7 +19,7 @@ const links = [
         title: 'About',
         url: '/about'
     },
-    {
+    /*{
         id: 3,
         title: 'Portfolio',
         url: '/portfolio'
@@ -28,7 +28,7 @@ const links = [
         id: 4,
         title: 'Blog',
         url: '/blog'
-    },
+    },*/
     {
         id: 5,
         title: 'Contact',
