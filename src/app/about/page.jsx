@@ -24,17 +24,9 @@ function About() {
       </div>
       <div className={styles.item}>
         <h2 className={styles.title}>Why Get A Custom Website?</h2>
-        <p className={styles.desc}>Imagine a dynamic and high-performing online presence that seamlessly engages your audience and drives your business forward. That is precisely what a Next.js website coupled with a headless CMS and MongoDB can offer your business.
-
-Next.js, a cutting-edge React framework, brings speed, responsiveness, and search engine optimization (SEO) benefits to the table. This means lightning-fast page loads and smooth user experiences, which are crucial for retaining visitors and reducing bounce rates. With Next.js, your website can adapt to various devices and screen sizes, ensuring a consistent and visually appealing interface across smartphones, tablets, and desktops. Moreover, its server-side rendering capabilities enhance SEO, making your content more discoverable by search engines and driving organic traffic to your site.<br /><br />
-
-Integrating a headless CMS, such as Contentful or Strapi, empowers your team to effortlessly manage and update content without needing to delve into the technical intricacies. This separation of content and presentation enables efficient content creation and modification, streamlining your workflow and allowing your team to focus on what matters most, crafting compelling narratives and engaging experiences for your audience.<br /><br />
-
-Now, lets talk about MongoDB a powerful and flexible NoSQL database. MongoDBs document-based structure allows for seamless scalability, ensuring your website can effortlessly handle increasing amounts of data and traffic. This scalability translates to a more reliable and responsive user experience, even during traffic spikes or rapid growth periods. Additionally, MongoDBs ability to handle diverse data types enables you to efficiently store and retrieve various content elements, from images and videos to complex product data.<br /><br />
-
-In summary, a Next.js website with a headless CMS and MongoDB is a game-changer for your business. It brings speed, SEO optimization, and responsive design to the forefront, enhancing user experiences and driving conversions. The streamlined content management process accelerates your teams efficiency, while MongoDBs scalability ensures your website remains robust and reliable as your business flourishes. It is a powerful combination that empowers your business to thrive in the digital landscape.</p>
+        <p className={styles.desc}>Hiring a professional to build a Next.js website with a Firestore backend for your company is a strategic decision that can significantly benefit your business. Next.js offers several advantages, such as lightning-fast page load times, excellent SEO capabilities, and a smooth user experience. Combined with Firestore, a flexible NoSQL database from Google, you can ensure seamless data management and real-time updates. This dynamic combination allows you to create a responsive and scalable web application, essential for staying competitive in the digital age. By investing in a qualified developer, you not only save time and resources but also gain a modern, efficient, and reliable online platform that can help you engage customers, improve brand visibility, and ultimately drive growth for your company.</p>
       </div>
-      </div>
+    </div>
     </div>
   )
 }
