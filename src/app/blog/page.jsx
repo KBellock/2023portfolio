@@ -12,7 +12,7 @@ import { addPost, getPosts } from "../../utils/firebase"
 
 const Blog = () => {
 
-  const loadData = () => {
+  const LoadData = () => {
     useEffect(() => {
       console.log("hello")
       const data = getPosts();
@@ -20,7 +20,7 @@ const Blog = () => {
     }, []);
   }
 
-  loadData();
+  LoadData();
   
   return (
 <>
