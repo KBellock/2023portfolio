@@ -17,7 +17,7 @@ export default function Home() {
       <div className={styles.item}>
         <PageTitle />
         <p className={styles.description}>Building for the modern web with a results driven focus on SEO and performance</p>
-        <Button url="/portfolio" text="See my Work"/>
+        {/*<Button url="/portfolio" text="See my Work"/>*/}
       </div>
       <div className={styles.imgContainer}> 
         <Image src={Hero} alt="Hero Image" className={styles.img}/>

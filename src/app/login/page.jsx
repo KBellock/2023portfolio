@@ -17,19 +17,20 @@ const Login = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    /*//login logic
+    //login logic
     try {
         await auth().signInWithEmailAndPassword(email, password);
         console.log('Logged in successfully');
       } catch (error) {
         console.error('Error logging in:', error);
-      }*/
+      }
   };
 
   return (
     <div className={styles.loginContainer}>
       <div className={styles.loginBox}>
         <h2 className={styles.loginTitle}>Login</h2>
+        <p>( Only For Admin )</p>
         <form className={styles.loginForm} onSubmit={handleSubmit}>
           <input
             type="email"

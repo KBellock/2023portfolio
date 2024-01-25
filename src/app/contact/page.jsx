@@ -29,6 +29,7 @@ const handleMessageChange = (event) => {
 
 const handleSubmit = (event) => {
   event.preventDefault();
+  console.log(name, email, message);
   submitForm(name, email, message);
   setName("");
   setEmail("");
